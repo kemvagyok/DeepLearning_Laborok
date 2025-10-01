@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  deeplearnlaborok:
+    build: .
+    container_name: deeplearnlaborok
+    volumes:
+      - /C:/Users/0322s/Documents/GitHub/DeepLearning_Laborok:/work
+    tty: true
+    stdin_open: true
